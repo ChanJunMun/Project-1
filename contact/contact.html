@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css" type="text/css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="sidenav">
+            <a href="../index.html">Home page</a>
+            <a href="../mainpage/mainpage.html">Main page</a>
+            <a href="#">Contact us</a>
+            <a href="../junmun/junmun.html">Chan Jun Mun</a>
+        </div>
+       
+        <div class="form1">
+            <form action="#">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your given name"> <br/>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your family name"> <br/>
+
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label> <br/>
+
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label> <br/>
+
+                    <label for="age">Age</label> <br/>
+                    <input type="number" id="age" name="age"> <br/>
+                    
+
+                    <label for="country">Country</label> <br/>
+                    <select id="country" name="country">
+                    <option value="Singapore">Singapore</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Others">Others</option>
+                    </select> <br/>
+
+                    <label for="Remarks">Remarks</label> <br/>
+                    <textarea id="Remarks" name="Remarks" placeholder="Tell us about your pleasant visit, or how we can improve to serve you better" style="height:200px"></textarea> <br/>
+
+                    <input type="submit" value="Submit">
+                </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+
+  }
+  
+  h2 {
+      text-align: center;
+  }
+  h2 span {
+      display: block;
+      color: blue;
+  }
+
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  
+  .content {
+    background-color: #87d86a;
+    padding: 10px;
+    height: auto;
+
+  }
+
+  .content p{
+      text-align: center;
+  }
+
+  .content a{
+    text-align: center;
+}
+  
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
