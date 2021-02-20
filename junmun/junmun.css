@@ -11,6 +11,13 @@ h1 {
     text-align: center;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
 .content {
   background-color: #87d86a;
   padding: 10px;
@@ -24,6 +31,14 @@ h1 {
 
 .content a{
   text-align: center;
+}
+
+table, tr, td{
+  border: black 1px solid;
+}
+
+table {
+  width: auto;
 }
 
 .footer {
